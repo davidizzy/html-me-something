@@ -1,0 +1,44 @@
+/*
+http://education.launchcode.org/web-fundamentals/assignments/html-me-something/part2-css/
+Use margin and padding to space your elements in a visually pleasing way.
+Use at least one of each of the following types of selectors: element, class, id.
+Don't break these rules:
+At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
+Use document-level and inline styles sparingly, and only when absolutely necessary.
+As before, be creative! Make your page look great, and don't settle for checking off the items above. Have a look at CSS Zen Garden for inspiration (use your browser's developer tools to see how those pages' styles are built).
+*/
+
+body {
+  background-color: rgb(0, 102, 0);
+  text-align: center;
+}
+
+ul {
+  text-align: justify;
+}
+
+h1 {
+  color: white;
+  padding: 15px
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+article {
+  outline-style: groove;
+  outline-color: rgb(27, 125, 229);
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+img {
+  margin: 10px 10px 10px 10px;
+}
