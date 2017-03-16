@@ -27,6 +27,7 @@ a:hover {
 
 .message {
   font-size: 16;
+  padding-top: 10
 }
 
 .headers {
@@ -43,25 +44,33 @@ a:hover {
 }
 
 ul {
-  text-align: justify;
+  margin: 0;
+  padding: 0;
+  display: inline-table;
+  width: 50%;
+}
+
+li {
+  padding: 2;
+  text-align: left;
 }
 
 #intro, #closing, article {
   outline-style: groove;
   outline-color: rgb(170, 79, 57);
-  background-color: rgb(132, 159, 204)
+  background-color: rgb(132, 159, 204);
+  padding: 0px 10px 10px 10px
 }
 
-#articleText {
+.articleText {
   font-family: verdana;
   font-size: 14px;
   text-align: center;
-  margin: 0px 10px 10px 0px;
 }
 
 img {
   margin: 10px 10px 10px 10px;
-  width: 650px
+  width: 80%
 }
 
 #closing{
