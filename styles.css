@@ -3,15 +3,27 @@ html {
 }
 
 body {
-  background-color: rgb(81, 114, 98);
+  background-color: rgb(41, 123, 72);
   text-align: center;
+}
+
+main {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#intro, #closing {
+  outline-style: groove;
+  outline-color: rgb(170, 79, 57);
+  background-color: rgb(170, 138, 57)
 }
 
 .message {
   font-size: 20;
 }
 
-#headers {
+.headers {
   color: white;
   padding: 15px;
   text-decoration: underline;
@@ -19,7 +31,7 @@ body {
 }
 
 #headers:hover {
-  color: blue;
+  color: rgb(89, 19, 40);
   font-style: italic;
 }
 
@@ -29,10 +41,11 @@ ul {
 
 article {
   outline-style: groove;
-  outline-color: rgb(27, 125, 229);
+  outline-color: rgb(170, 79, 57);
+  background-color: rgb(39, 88, 107)
 }
 
-p {
+#articleText {
   font-family: verdana;
   font-size: 20px;
   text-align: center;
@@ -41,4 +54,14 @@ p {
 
 img {
   margin: 10px 10px 10px 10px;
+}
+
+#closing{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+#legal {
+  font-size: : 8;
 }
