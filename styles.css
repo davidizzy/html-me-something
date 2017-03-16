@@ -18,6 +18,11 @@ body {
   font-family: fantasy;
 }
 
+#headers:hover {
+  color: blue;
+  font-style: italic;
+}
+
 ul {
   text-align: justify;
 }
