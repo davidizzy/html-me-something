@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: rgb(41, 123, 72);
+  background-color: rgb(77, 87, 104);
   text-align: center;
 }
 
@@ -25,19 +25,14 @@ a:hover {
   color: white;
 }
 
-#intro, #closing {
-  outline-style: groove;
-  outline-color: rgb(170, 79, 57);
-  background-color: rgb(170, 138, 57)
-}
-
 .message {
-  font-size: 20;
+  font-size: 16;
 }
 
 .headers {
   color: white;
-  padding: 15px;
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 5px;
   text-decoration: underline;
   font-family: fantasy;
 }
@@ -51,17 +46,17 @@ ul {
   text-align: justify;
 }
 
-article {
+#intro, #closing, article {
   outline-style: groove;
   outline-color: rgb(170, 79, 57);
-  background-color: rgb(39, 88, 107)
+  background-color: rgb(132, 159, 204)
 }
 
 #articleText {
   font-family: verdana;
-  font-size: 20px;
+  font-size: 14px;
   text-align: center;
-  margin: 10px 10px 10px 10px;
+  margin: 0px 10px 10px 0px;
 }
 
 img {
