@@ -13,6 +13,18 @@ main {
   width: 80%;
 }
 
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: white;
+}
+
 #intro, #closing {
   outline-style: groove;
   outline-color: rgb(170, 79, 57);
@@ -30,7 +42,7 @@ main {
   font-family: fantasy;
 }
 
-#headers:hover {
+.headers:hover {
   color: rgb(89, 19, 40);
   font-style: italic;
 }
